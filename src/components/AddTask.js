@@ -7,13 +7,13 @@ const AddTask = (props) => {
 
     const handleAddTask = () => {
         props.addTask(taskInput)
-        setTaskInput(' ')
+        setTaskInput('')
     }
 
     return (
-        <div>
-            <input type="text" placeholder={ props.placeholder } value={ taskInput } onChange={ handleInputChange }/>
-            <button onClick={ handleAddTask }>add task</button>
+        <div className='addForm'>
+            <input className='addForm_input' type="text" placeholder={ props.placeholder } value={ taskInput } onChange={ handleInputChange }/>
+            <button className='addForm_btn' onClick={ handleAddTask }>add task</button>
         </div>
     )
 }

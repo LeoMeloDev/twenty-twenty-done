@@ -1,3 +1,7 @@
+# Step-by-step Trello tasks on this app
+
+Follow: https://trello.com/b/LAgb1gOB
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -52,3 +52,73 @@ table {
   text-align: center;
   font-family: 'Bungee Shade', cursive;
 }
+
+/*********** 
+  ADD FORM
+************/
+
+.addForm {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 650px;
+  padding-top: 50px;
+}
+
+.addForm_input {
+  width: 400px;
+  height: 36px;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: .2px solid black;
+  font-family: 'Roboto';
+  font-size: 20px;
+  outline: none;
+}
+
+.addForm_btn {
+  width: 150px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+  background-color: firebrick;
+  cursor: pointer;
+}
+
+
+/******* 
+  TASK 
+********/
+.task {
+  margin: auto;
+  max-width: 650px;
+  padding-top: 30px;
+}
+
+.task li {
+  display: flex;
+  font-family: 'Roboto';
+  font-size: 24px;
+  padding: 15px 0px;
+}
+
+.task ul li span {
+  display: flex;
+  margin-left: auto;
+}
+
+.task li button {
+  width: 100px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+  background-color: green;
+}
+
